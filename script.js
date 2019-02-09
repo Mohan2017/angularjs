@@ -14,5 +14,5 @@ xhttp.onreadystatechange = function() {
     }
     document.getElementById('uls').innerHTML = output;
 }
-xhttp.open("GET", "http://dummy.restapiexample.com/api/v1/employees", true)
+xhttp.open("GET", "http://dummy.restapiexample.com/api/v1/employees")
 xhttp.send();
